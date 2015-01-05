@@ -25,7 +25,7 @@ Magento Rest API Client
         // callback
     }, <optional remote product id - in case of product update>);
 
-Currently only `Products` resource is implemented with possibility to add product images, add and remove product categoroies. Please check the source code [products.js]() to get better understanding of available API's and how to use them. 
+Currently only `Products` resource is implemented with possibility to add product images, add and remove product categoroies. Please check the source code [products.js](https://github.com/sandeepjain/magento-rest-api/blob/master/products.js) to get better understanding of available API's and how to use them. 
 
 You are free to add code for other api end points and send pull request for same.
 
