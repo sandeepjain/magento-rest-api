@@ -10,8 +10,8 @@ internals.getOAuth = function (config) {
     };
 };
 
-internals.create = function (config, options) {
-    if (!options.host) {
+internals.create = function (config) {
+    if (!config.baseUrl) {
         throw new Error('options.host required (example: www.mymagentosite.com)');
     }
 
