@@ -1,3 +1,4 @@
+var _ = require('lodash');
 var querystring = require('querystring');
 var Joi = require('joi');
 
